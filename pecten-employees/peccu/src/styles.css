@@ -818,9 +818,6 @@ p {
     bottom: 27px;
 }
 
-.news:hover {
-	/*margin-top:-20px;*/
-}
 .news:hover .news_details {
 	background: #1F75BB;
 }
