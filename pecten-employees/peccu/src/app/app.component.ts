@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef} from '@angular/core';
+import { Fancybox } from '@fancyapps/ui';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'peccu';
+
+  constructor(private elRef: ElementRef) {}
+
+  ngOnInit() {
+    Fancybox.bind(this.elRef.nativeElement, '[data-fancybox]', {
+      // Custom options
+    });
+  }
+
+  ngOnDestroy() {
+    Fancybox.unbind(this.elRef.nativeElement);
+    Fancybox.close();
+  }
 }

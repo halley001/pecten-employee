@@ -1,75 +1,72 @@
-<!-- =======Header ======= -->
-<header>
-    <div class="container-fluid top_header bg-dark">
-      <div class="container">
-        <p class="float_left">PECCU turns 30 this year. Join us to celebrate 30 years of excellence!</p>
-        <div class="float_right">
-          <ul>
-            <li style="display:none"><a href=""><i class="fa fa-facebook"></i></a></li>
-            <li style="display:none"><a href=""><i class="fa fa-twitter"></i></a></li>
-            <li style="display:none"><a href=""><i class="fa fa-google-plus"></i></a></li>
-            <li style="display:none"><a href=""><i class="fa fa-linkedin"></i></a></li>
-            <li>
-              <div id="search_box">
-                <input id="search" type="text" placeholder="Search here">
-                <button id="button" type="submit"><span class="bi bi-search"></span></button>
+        <!-- =======Header ======= -->
+        <header>
+          <div class="container-fluid top_header">
+            <div class="container">
+              <p class="float_left">PECCU turns 30 this year. Join us to celebrate 30 years of excellence!</p>
+              <div class="float_right">
+                <ul>
+                  <li style="display:none"><a href=""><i class="fa fa-facebook"></i></a></li>
+                  <li style="display:none"><a href=""><i class="fa fa-twitter"></i></a></li>
+                  <li style="display:none"><a href=""><i class="fa fa-google-plus"></i></a></li>
+                  <li style="display:none"><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  <li>
+                    <div id="search_box">
+                      <input id="search" type="text" placeholder="Search here">
+                      <button id="button" type="submit"><span class="icon icon-Search"></span></button>
+                    </div>
+                  </li>
+                </ul>
               </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- end container --> 
-    </div>
-    <!-- end top_header -->
-    <div class="bottom_header top-bar-gradient">
-      <div class="container clear_fix">
-        <div class="float_left logo"> <a href="/"> <img src="../../../assets/images/logo.png" alt="PECCU"> </a> </div>
-        <div class="float_right address">
-          <div class="top-info">
-            <div class="icon-box"> <span class=" icon icon-Pointer"><i class="bi bi-geo-alt-fill"></i></span></div>
-            <div class="content-box">
-              <p> Rue de Trieste <br>
-                <span>Bonanjo, Douala Cameroon</span></p>
             </div>
+            <!-- end container --> 
           </div>
-          <div class="top-info">
-            <div class="icon-box"> <span class="separator icon icon-Phone2"><i class="bi bi-telephone-fill"></i></span> </div>
-            <div class="content-box">
-              <p>+237 233-42-16-83 <br>
-                <span>contact@peccu.org</span></p>
+          <!-- end top_header -->
+          <div class="bottom_header top-bar-gradient">
+            <div class="container clear_fix">
+              <div class="float_left logo"> <a href="/web/20190725223012/http://www.peccu.org/"> <img src="../../../assets/images/logo.png" alt="PECCU"> </a> </div>
+              <div class="float_right address">
+                <div class="top-info">
+                  <div class="icon-box"> <span class=" icon icon-Pointer"></span> </div>
+                  <div class="content-box">
+                    <p> Rue de Trieste <br>
+                      <span>Bonanjo, Douala Cameroon</span></p>
+                  </div>
+                </div>
+                <div class="top-info">
+                  <div class="icon-box"> <span class="separator icon icon-Phone2"></span> </div>
+                  <div class="content-box">
+                    <p>+237 233-42-16-83 <br>
+                      <span>contact peccu.org</span></p>
+                  </div>
+                </div>
+                <div class="top-info">
+                  <div class="icon-box"> <span class="separator icon icon-Timer"></span> </div>
+                  <div class="content-box">
+                    <p>Mon - Fri 9.00 - 17.30 <br>
+                      <span>Closed Weekends</span></p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- end container --> 
           </div>
-          <div class="top-info">
-            <div class="icon-box"> <span class="separator icon icon-Timer"><i class="bi bi-stopwatch-fill"></i></span> </div>
-            <div class="content-box">
-              <p>Mon - Fri 9.00 - 17.30 <br>
-                <span>Closed Weekends</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end container --> 
-    </div>
-    <!-- end bottom_header --> 
-  </header>
-          <!-- end header -->
-          <!-- ======= /Header ======= -->
-
-
-
-                  <!-- ======= mainmenu-area section ======= -->
+          <!-- end bottom_header --> 
+        </header>
+                <!-- end header -->
+                <!-- ======= /Header ======= -->
+                 <!-- ======= mainmenu-area section ======= -->
         <section class="mainmenu-area stricky">
           <div class="container">
               <nav class="clearfix">
                   <!-- Brand and toggle get grouped for better mobile display -->
-                  <!-- <div class="navbar-header clearfix">
+                  <div class="navbar-header clearfix">
                       <button type="button" class="navbar-toggle collapsed"> <span class="sr-only">Toggle navigation</span> <span class="fa fa-th fa-2x"></span> </button>
-                  </div> -->
+                  </div>
                   <div class="nav_main_list custom-scroll-bar pull-left" id="bs-example-navbar-collapse-1">
-                      <ul class="nav navbar-nav list-group list-group-horizontal" id="hover_slip">
-                          <li><a href="/web/20190725223012/http://www.peccu.org/">Home</a>
+                      <ul class="nav navbar-nav" id="hover_slip">
+                          <li><a routerLink="/home">Home</a>
                           </li>
-                          <li class="arrow_down"><a href="/web/20190725223012/http://www.peccu.org/about">About Us</a>
+                          <li class="arrow_down"><a routerLink="/about">About Us</a>
                               <div class="sub-menu">
                                   <ul>
                                       <li style="display:none"><a href="/web/20190725223012/http://www.peccu.org/about/who-we-are">Who We Are</a>
@@ -91,8 +88,8 @@
                                   </ul>
                               </div>
                           </li>
-                          <li class="arrow_down"><a href="/web/20190725223012/http://www.peccu.org/services">Services</a></li>
-                          <li class="arrow_down"><a href="/web/20190725223012/http://www.peccu.org/membership">Membership</a>
+                          <li class="arrow_down"><a routerLink="/services">Services</a></li>
+                          <li class="arrow_down"><a routerLink="/membership">Membership</a>
                               <div class="sub-menu">
                                   <ul>
                                       <li><a href="/web/20190725223012/http://www.peccu.org/join">Apply</a>
@@ -106,7 +103,7 @@
                                   </ul>
                               </div>
                           </li>
-                          <li class="arrow_down"><a href="/web/20190725223012/http://www.peccu.org/news">Blogs</a>
+                          <li class="arrow_down"><a routerLink="/blog">Blogs</a>
                               <div class="sub-menu">
                                   <ul>
                                       <li><a href="/web/20190725223012/http://www.peccu.org/news/press">Press Room</a>
@@ -114,7 +111,7 @@
                                   </ul>
                               </div>
                           </li>
-                          <li class="arrow_down"><a href="/web/20190725223012/http://www.peccu.org/downloads">Downloads</a>
+                          <li class="arrow_down"><a routerLink="/downloads">Downloads</a>
                               <div class="sub-menu">
                                   <ul>
                                       <li><a href="/web/20190725223012/http://www.peccu.org/downloads/accreditation">Accreditation</a>
@@ -130,7 +127,7 @@
                                   </ul>
                               </div>
                           </li>
-                          <li><a class="contact" href="/web/20190725223012/http://www.peccu.org/contact">Contact</a>
+                          <li><a class="contact" routerLink="/contact">Contact</a>
                           </li>
                       </ul>
                   </div>
@@ -141,5 +138,3 @@
           <!-- End Container -->
       </section>
               <!-- ======= /mainmenu-area section ======= -->
-
-              

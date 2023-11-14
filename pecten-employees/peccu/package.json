@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
+    "@fancyapps/ui": "^5.0.27",
     "@webrecorder/wombat": "^3.6.1",
     "bootstrap-icons": "^1.11.1",
     "rxjs": "~7.8.0",
