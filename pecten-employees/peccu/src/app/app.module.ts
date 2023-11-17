@@ -15,6 +15,9 @@ import { ServicesComponent } from './components/services/services.component';
 import { MembershipComponent } from './components/membership/membership.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { DownloadsComponent } from './components/downloads/downloads.component';
+import { BodComponent } from './components/bod/bod.component';
+import { WomenComponent } from './components/women/women.component';
+import { CsrComponent } from './components/csr/csr.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { DownloadsComponent } from './components/downloads/downloads.component';
     ServicesComponent,
     MembershipComponent,
     BlogComponent,
-    DownloadsComponent
+    DownloadsComponent,
+    BodComponent,
+    WomenComponent,
+    CsrComponent
   ],
   imports: [
     BrowserModule,

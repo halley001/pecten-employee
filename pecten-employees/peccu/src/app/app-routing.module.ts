@@ -8,6 +8,9 @@ import { ServicesComponent } from './components/services/services.component';
 import { MembershipComponent } from './components/membership/membership.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { DownloadsComponent } from './components/downloads/downloads.component';
+import { BodComponent } from './components/bod/bod.component';
+import { WomenComponent } from './components/women/women.component';
+import { CsrComponent } from './components/csr/csr.component';
 
 
 const routes: Routes = [
@@ -18,8 +21,11 @@ const routes: Routes = [
   {path:'membership', component:MembershipComponent},
   {path:'downloads', component:DownloadsComponent},
   {path:'blog', component:BlogComponent},
+  {path:'bod', component:BodComponent},
+  {path:'women', component:WomenComponent},
+  {path:'csr', component:CsrComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'},
-  {path:'*', component:PagenotfoundComponent}
+  {path:'**', component:PagenotfoundComponent}
 ];
 
 @NgModule({
