@@ -21,7 +21,7 @@
 	content: '';
 	width: 4px;
 	height:100%;
-	background: #1F75BB;
+	background: #026992;
 	position: absolute;
 	letter-spacing: 1px;
     right: -16px;
@@ -87,7 +87,7 @@
 	margin-top:29px;
 }
 .welcome_details .welcome_info:hover {
-	background: #1F75BB;
+	background: #026992;
 }
 .welcome_details .welcome_info:hover h3{
 	color: #fff;
