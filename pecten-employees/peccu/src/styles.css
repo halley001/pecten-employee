@@ -171,7 +171,7 @@ p {
 	z-index: 999;
  }
  .mainmenu-area .container {
-	background: #1F75BB;
+	background: #026992;
 	padding: 0 5px;
 	position: relative;
  }
@@ -420,7 +420,7 @@ p {
    transition: all 0.3s ease-in-out;
  }
  .banner .banner_info a:nth-child(4) {
-   background: #1F75BB;
+   background: #026992;
    color:#fff;
    padding: 15px 13px 15px 20px;
    margin-left: 25px;
