@@ -20,6 +20,7 @@ import { WomenComponent } from './components/women/women.component';
 import { CsrComponent } from './components/csr/csr.component';
 import { RegulationsComponent } from './components/regulations/regulations.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { PressComponent } from './components/press/press.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     WomenComponent,
     CsrComponent,
     RegulationsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    PressComponent
   ],
   imports: [
     BrowserModule,

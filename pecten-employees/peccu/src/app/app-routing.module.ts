@@ -12,6 +12,7 @@ import { BodComponent } from './components/bod/bod.component';
 import { WomenComponent } from './components/women/women.component';
 import { CsrComponent } from './components/csr/csr.component';
 import { RegulationsComponent } from './components/regulations/regulations.component';
+import { PressComponent } from './components/press/press.component';
 
 
 const routes: Routes = [
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path:'bod', component:BodComponent},
   {path:'women', component:WomenComponent},
   {path:'csr', component:CsrComponent},
+  {path:'press', component:PressComponent},
   {path:'regulations', component:RegulationsComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'},
   {path:'**', component:PagenotfoundComponent}
