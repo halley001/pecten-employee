@@ -18,6 +18,8 @@ import { DownloadsComponent } from './components/downloads/downloads.component';
 import { BodComponent } from './components/bod/bod.component';
 import { WomenComponent } from './components/women/women.component';
 import { CsrComponent } from './components/csr/csr.component';
+import { RegulationsComponent } from './components/regulations/regulations.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { CsrComponent } from './components/csr/csr.component';
     DownloadsComponent,
     BodComponent,
     WomenComponent,
-    CsrComponent
+    CsrComponent,
+    RegulationsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
