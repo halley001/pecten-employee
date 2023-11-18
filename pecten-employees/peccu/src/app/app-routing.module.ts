@@ -16,18 +16,18 @@ import { PressComponent } from './components/press/press.component';
 
 
 const routes: Routes = [
-  {path:'about', component:AboutComponent},
-  {path:'contact', component:ContactComponent},
   {path:'home', component:HomeComponent},
+  {path:'about', component:AboutComponent},
+  {path:'about/bod', component:BodComponent},
+  {path:'about/women', component:WomenComponent},
+  {path:'about/csr', component:CsrComponent},
+  {path:'about/regulations', component:RegulationsComponent},
+  {path:'contact', component:ContactComponent},
   {path:'services', component:ServicesComponent},
   {path:'membership', component:MembershipComponent},
   {path:'downloads', component:DownloadsComponent},
   {path:'blog', component:BlogComponent},
-  {path:'bod', component:BodComponent},
-  {path:'women', component:WomenComponent},
-  {path:'csr', component:CsrComponent},
   {path:'press', component:PressComponent},
-  {path:'regulations', component:RegulationsComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'},
   {path:'**', component:PagenotfoundComponent}
 ];
