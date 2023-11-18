@@ -61,16 +61,16 @@ This files contents are outlined below>>>>>
 
 
 /* imported styles */
-/* 
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/jquery.fancybox.css');
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/hover.css');
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/jquery.bxslider.css');
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/gradient.css');
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/jquery.mCustomScrollbar.min.css');
 
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/revolution-slider/settings.css');
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/revolution-slider/layers.css');
-@import url('/web/20190130135839cs_/http://www.peccu.org/css/revolution-slider/navigation.css'); */
+@import url('http://www.peccu.org/css/jquery.fancybox.css');
+@import url('http://www.peccu.org/css/hover.css');
+@import url('http://www.peccu.org/css/jquery.bxslider.css');
+@import url('http://www.peccu.org/css/gradient.css');
+@import url('http://www.peccu.org/css/jquery.mCustomScrollbar.min.css');
+
+@import url('http://www.peccu.org/css/revolution-slider/settings.css');
+@import url('http://www.peccu.org/css/revolution-slider/layers.css');
+@import url('http://www.peccu.org/css/revolution-slider/navigation.css');
 
 
 
@@ -127,7 +127,7 @@ p {
 
  /*====================== Banner ===============*/
  .banner {
-	background: url(/web/20190130135839im_/http://www.peccu.org/images/banner.jpg) no-repeat center;
+	background: url(assets/images/happy-birthday-011.png) no-repeat center;
 	height: 763px;
  }
  .banner .banner_opacity {
@@ -146,7 +146,7 @@ p {
    left: 0;
    width: 100%;
    z-index: 99999;
-   background: #1F75BB;
+   background: #026992;
  }
  .mainmenu-area.stricky-fixed nav>div a.advisor {
    position: relative;	
