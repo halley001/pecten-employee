@@ -22,12 +22,12 @@ const routes: Routes = [
   {path:'about/women', component:WomenComponent},
   {path:'about/csr', component:CsrComponent},
   {path:'about/regulations', component:RegulationsComponent},
-  {path:'contact', component:ContactComponent},
   {path:'services', component:ServicesComponent},
   {path:'membership', component:MembershipComponent},
-  {path:'downloads', component:DownloadsComponent},
   {path:'blog', component:BlogComponent},
-  {path:'press', component:PressComponent},
+  {path:'blog/Press', component:PressComponent},
+  {path:'downloads', component:DownloadsComponent},
+  {path:'contact', component:ContactComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'},
   {path:'**', component:PagenotfoundComponent}
 ];
