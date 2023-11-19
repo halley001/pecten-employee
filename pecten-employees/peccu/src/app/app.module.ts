@@ -21,6 +21,7 @@ import { CsrComponent } from './components/csr/csr.component';
 import { RegulationsComponent } from './components/regulations/regulations.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { PressComponent } from './components/press/press.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { PressComponent } from './components/press/press.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
