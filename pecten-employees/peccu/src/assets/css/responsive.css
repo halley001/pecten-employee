@@ -254,7 +254,7 @@
           padding-bottom: 25px;
       }
       .mainmenu-area nav {
-          background:#1F75BB;
+          background:#026992;
           width:750px;
           margin: 0 auto;
           height:auto;
@@ -413,7 +413,7 @@
       .side_tab .tabs-left li a:focus,
       .side_tab .tabs-left li.active a {
           background: none;
-          background-color: #1F75BB;
+          background-color: #026992;
       }
       .side_tab .tabs-left li a:before {
           width:100%;
@@ -656,7 +656,7 @@
           color:#fff;
       }
       .mainmenu-area nav>div>ul {
-          background:#1F75BB; 
+          background:#026992; 
       }
       .mainmenu-area nav>div>ul li a {
           border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
