@@ -214,6 +214,7 @@ function progressBarConfig () {
 
 }
 
+document.getElementById("myBtn").addEventListener("click", mobileMenuConfig);
 
 function mobileMenuConfig () {
   if($('.nav_main_list').length){
