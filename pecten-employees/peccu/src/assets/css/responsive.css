@@ -67,6 +67,9 @@
       .banner nav {
           right:10px;
       }
+      .mainmenu-area nav .nav_main_list {
+        display:none; 
+    }
   }
   @media (min-width: 1200px) and (max-width: 1227px) {
       #search_box {
@@ -78,6 +81,8 @@
       .mainmenu-area nav>div>ul li a {
           padding-left:17px;
       }	
+
+  
       .mainmenu-area nav>div a.advisor {
           margin-left:2px;
       }
@@ -254,7 +259,7 @@
           padding-bottom: 25px;
       }
       .mainmenu-area nav {
-          background:#1F75BB;
+          background:#026992;
           width:750px;
           margin: 0 auto;
           height:auto;
@@ -262,6 +267,9 @@
       .mainmenu-area nav .nav_main_list {
           border:none;
       }
+      .mainmenu-area nav .nav_main_list {
+        display:none;
+    }
       .mainmenu-area nav .nav_main_list {
           margin:auto;
       }
@@ -368,6 +376,9 @@
   
   
   @media (max-width: 991px ) {
+    .mainmenu-area nav .nav_main_list {
+        display:none; 
+    }
       header .top_header {
           background: #20262e;
           height:auto;
@@ -413,7 +424,7 @@
       .side_tab .tabs-left li a:focus,
       .side_tab .tabs-left li.active a {
           background: none;
-          background-color: #1F75BB;
+          background-color: #026992;
       }
       .side_tab .tabs-left li a:before {
           width:100%;
@@ -608,6 +619,7 @@
       }
       .mainmenu-area nav .nav_main_list {
           width:100%;
+          display: none;
       }
       .mainmenu-area nav>div>ul {
           transition: all .0s ease;
@@ -645,6 +657,10 @@
           cursor: pointer;
           z-index: 9999;
       }
+
+      .mainmenu-area nav .nav_main_list {
+        display:none; 
+    }
       .mainmenu-area nav>div>ul li a:hover {
           padding-left:33px;
       }
@@ -965,7 +981,7 @@
   }
   @media (max-width: 445px) {
       .client_slider {
-          background: #1cbac8;
+          background: #026992;
           height: auto;
           padding-bottom: 15px;
           margin-bottom: 15px;
@@ -1242,9 +1258,9 @@
           position: absolute;
           top: 100%;
           left: 0;
-          background: #13A0B2;
+          background: #026992;
           transition: none;
-          display: none;
+          
       }
       .mainmenu-area .find-advisor a.advisor {
           padding: 0 35px 0 15px;
@@ -1268,6 +1284,7 @@
           padding: 0;
           padding-left: 15px;
           width: 100%;
+          display: none;
       }
       .mainmenu-area nav .nav_main_list ul.navbar-nav {
           position: relative;

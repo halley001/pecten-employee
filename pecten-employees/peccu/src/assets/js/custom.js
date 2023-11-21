@@ -214,7 +214,6 @@ function progressBarConfig () {
 
 }
 
-document.getElementById("myBtn").addEventListener("click", mobileMenuConfig);
 
 function mobileMenuConfig () {
   if($('.nav_main_list').length){
@@ -223,6 +222,20 @@ function mobileMenuConfig () {
     });
   }
 }
+
+// function toggleMobileMenu() {
+//   const toggleButton = document.getElementById('buttonToggle');
+//   const mobileMenuList = document.getElementById('mobileMenuList');
+//   let displayStyle = mobileMenuList.style.display;
+
+//   toggleButton.addEventListener('click', () => {
+//     if (displayStyle == 'block') {
+//       mobileMenuList.style.display = 'none'
+//     } else {
+//       mobileMenuList.style.display = 'block'
+//     }
+//   });
+// }
 
 
 jQuery(window).on('scroll', function() {
