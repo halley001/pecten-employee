@@ -1,3 +1,4 @@
+import { Platform } from '@angular/cdk/platform';
 import { Component, ElementRef} from '@angular/core';
 import { Fancybox } from '@fancyapps/ui';
 
@@ -9,7 +10,8 @@ import { Fancybox } from '@fancyapps/ui';
 export class AppComponent {
   title = 'peccu';
 
-  constructor(private elRef: ElementRef) {}
+  constructor(private elRef: ElementRef,
+    public platform: Platform) {}
 
   ngOnInit() {
     Fancybox.bind(this.elRef.nativeElement, '[data-fancybox]', {
