@@ -533,7 +533,6 @@ p {
 	background: url(assets/images/founding-members.png) no-repeat right;
 	background-size: cover;
 	height:510px;
-	width:50%;
 	position: relative;
 }
 .we_are .we_are_opacity {
@@ -547,7 +546,7 @@ p {
 .we_are .we_are_border {
 	background: transparent;
 	height:95%;
-	width:98%;
+	width:98% ;
 	border:1px solid #fff;
 	position: absolute;
 	top: 12px;
@@ -570,7 +569,6 @@ p {
 	background-size: cover;
 	background-color: #202731;
 	height:510px;
-	width:50%;
 	position: relative;	
 }
 .we_are .we_are_deatails {
@@ -604,10 +602,8 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.125em;
 	color:#fff;
-	padding-left: 35px;
-    padding-right: 32px;
-    margin-top: 63px;
-    margin-right: 27px;
+    margin-top: 5px;
+    margin-right: 10px;
 
 }
 .we_are .right_side .list_item p:not(.support) {
@@ -1145,7 +1141,7 @@ p {
 	margin-top:5px;
 }
 .get_touch form button.btn {
-	width:494px;
+	
 	text-align: left;
 	outline: none !important;
 }

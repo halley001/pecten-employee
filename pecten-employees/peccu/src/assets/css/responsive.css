@@ -2,12 +2,29 @@
     .container {
       padding: 0;
     }
+    .we_are .right_side {
+        width:50%;
+    }
+
+    .we_are .left_side{
+        width:50%;
+    }
+   
   }
   
   @media (max-width: 1199px) {
       body {
           overflow-x: hidden;
       }
+
+      .we_are .right_side {
+        width:50%;
+    }
+
+    .we_are .left_side{
+        width:50%;
+    }
+    
       .welcome_sec {
           height:auto;
           padding-bottom: 81px;
@@ -23,6 +40,9 @@
       }
       .latest_work .work_gallery .work_img_two {
           float:none;
+      }
+      .get_touch form button.btn {
+        width:494px;
       }
       .value_fact span:before {
           left:7px;
@@ -95,9 +115,7 @@
       .banner .banner_info {
           margin-left: 27%;
       }
-      .we_are .we_are_deatails {
-          padding-left:34px;
-      }
+     
       .we_are .right_side .list_item p {
           padding-left: 15px;
           padding-right:0px;
@@ -155,7 +173,8 @@
       }
       .consultation a {
           margin-left:4px;
-          padding: 15px 11px 15px 18px;
+          margin: 0 0 10px 0;
+          margin-top: 15px;
       }
       footer .top_footer .part4,
       footer .top_footer .part3 {
@@ -296,6 +315,10 @@
       .we_are .we_are_border {
           width:97%;
       }
+
+      .we_are .we_are_deatails {
+        padding-left:34px;
+    }
       .small_business_sec .container {
           float:none;
           width:100%;
@@ -346,6 +369,7 @@
       }
       .consultation a {
           margin:0 0 10px 0;
+          margin-top: 15px;
       }
       footer .top_footer .part4,
       footer .top_footer .part3,
@@ -379,7 +403,11 @@
     .mainmenu-area nav .nav_main_list {
         display:none; 
     }
-      header .top_header {
+
+    .we_are {
+        padding-left:34px;
+    }
+      header .top_header .container {
           background: #20262e;
           height:auto;
           text-align: center;
@@ -786,6 +814,7 @@
       }
       .consultation a {
           margin:0 0 10px 0;
+          margin-top: 15px;
       }
       footer .top_footer .part4,
       footer .top_footer .part3,
@@ -927,6 +956,7 @@
       }
   }
   @media (max-width: 766px) and (min-width: 480px) {
+
       .blog-variation-container .blog_single_post {
           width:auto;
           margin:30px 11px;
@@ -992,6 +1022,12 @@
   }
   
   @media (min-width: 992px) and (max-width: 1027px) {
+    .we_are .left_side{
+        width: 50%;
+    }
+    .we_are .right_side{
+        width: 50%;
+    }
       .small_business_sec .container {
           float:none;
           width:100%;
@@ -1004,6 +1040,7 @@
       .small_business_sec .container h2 {
           padding-top:5px;
       }
+     
       .we_are .right_side .list_item p {
           padding-left: 9px;
           padding-right: 0px;
@@ -1045,6 +1082,7 @@
       }
   }
   @media (min-width: 621px) and (max-width: 767px) {
+   
       .we_are .right_side .list_item p {
           padding-left: 22px;
           padding-right: 42px;
@@ -1052,6 +1090,7 @@
       }
   }
   @media (min-width: 500px) and (max-width: 620px) {
+   
       .we_are .right_side .list_item p {
           padding-left: 16px;
           padding-right: 16px;
@@ -1060,6 +1099,13 @@
   }
   
   @media (max-width: 492px) {
+
+    .we_are .left_side{
+        width: 100%;
+    }
+    .we_are .right_side{
+        width: 100%;
+    }
       .small_business_sec .container .list_two {
           padding-left: 0px;
           display: block;
