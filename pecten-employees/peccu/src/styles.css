@@ -618,7 +618,7 @@ p {
 /*============Testimonial & Company Values==========*/
 .testimonial_sec {
 	background: url(assets/images/t-bg.jpg) no-repeat center;
-	height:636px;
+	height:max-content;
 }
 .testimonial_sec .testimonial h2,
 .testimonial_sec .sec-title h2,
@@ -684,6 +684,7 @@ p {
 }
 .testimonial_container {
 	padding-right:31px;
+	margin-top:64px;
 }
 .client_say_about_us .row {
 	padding-top: 57px;
