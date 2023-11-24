@@ -685,6 +685,7 @@ p {
 .testimonial_container {
 	padding-right:31px;
 	margin-top:64px;
+	margin-bottom: 64px;
 }
 .client_say_about_us .row {
 	padding-top: 57px;

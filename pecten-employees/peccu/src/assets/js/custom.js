@@ -1,3 +1,8 @@
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
 var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
 if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
 {
@@ -222,21 +227,6 @@ function mobileMenuConfig () {
     });
   }
 }
-
-// function toggleMobileMenu() {
-//   const toggleButton = document.getElementById('buttonToggle');
-//   const mobileMenuList = document.getElementById('mobileMenuList');
-//   let displayStyle = mobileMenuList.style.display;
-
-//   toggleButton.addEventListener('click', () => {
-//     if (displayStyle == 'block') {
-//       mobileMenuList.style.display = 'none'
-//     } else {
-//       mobileMenuList.style.display = 'block'
-//     }
-//   });
-// }
-
 
 jQuery(window).on('scroll', function() {
   (function ($) {
