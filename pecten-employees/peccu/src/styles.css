@@ -794,7 +794,8 @@ p {
 	color: #fff;
 	text-transform: uppercase;
 	padding-left: 27px;
-    padding-top: 92px;
+    padding-top: 75px;
+	padding-bottom: 65;
     padding-right: 51px;
     position: relative;
 }

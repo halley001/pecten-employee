@@ -54,7 +54,7 @@
 	width:77%;
 	background: #fdfdfd;
 	border: 1px solid #e6e6e6;
-	margin-left: 140px;
+	margin-left: 52px;
     padding-top: 7px;
     padding-bottom: 24px;
     -webkit-transition: all 0.3s linear;
@@ -105,7 +105,7 @@
 }
 .business_opacity {
 	background: rgba(23, 29, 38, 0.5);
-	height:355px;
+	height:max-content;
 }
 .small_business_sec .container {
 	background: rgba(0, 0, 0, 0.45);
