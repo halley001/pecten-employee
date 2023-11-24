@@ -2,7 +2,7 @@
 
 header .top_header {
 	background: url(../../../assets/images/top-header.png) no-repeat center;
-	height:49px;
+	height:max-content;
 }
 header .top_header p {
 	font-family: 'Roboto', sans-serif;

@@ -264,6 +264,10 @@
       header .top_header,
       .banner .container {
           padding-left:0px;
+          padding-right: 0px;
+      }
+      .annex{
+        width: 100%;
       }
       header .bottom_header .float_left,
       header .bottom_header .float_right {
@@ -401,6 +405,12 @@
   
   
   @media (max-width: 991px ) {
+
+    header .bottom_header,
+    header .top_header {
+        padding-left:0px;
+        padding-right: 0px;
+    }
     .mainmenu-area nav .nav_main_list {
         display:none; 
     }
