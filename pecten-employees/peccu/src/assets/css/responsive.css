@@ -9,6 +9,10 @@
     .we_are .left_side{
      width:50%;
     }
+
+    .welcome_details .welcome_info {
+        margin-left: 10rem;
+    }
    
   }
   
@@ -90,6 +94,8 @@
       .mainmenu-area nav .nav_main_list {
         display:none; 
     }
+
+   
   }
   @media (min-width: 1200px) and (max-width: 1227px) {
       #search_box {
