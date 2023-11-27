@@ -48,7 +48,7 @@
 	padding:8px;
 	position: absolute;
 	z-index: 1;
-	top: 39px;
+	top: 28px;
 }
 .welcome_details .welcome_info {
 	position: relative;
@@ -67,7 +67,7 @@
 	font-weight: 700;
 	font-size: 1.25em;
 	color:#323232;
-	padding-left: 66px;
+	padding-left: 132px;
 }
 .welcome_details h3:before {
 	content: '';
@@ -75,7 +75,7 @@
 	height:3px;
 	background: #BC9B6A;
 	position: absolute;
-	top: 61px;
+	top: 45px;
 }
 .welcome_details p {
 	font-family: 'Open Sans', sans-serif;
