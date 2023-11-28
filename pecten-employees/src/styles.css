@@ -59,14 +59,11 @@ This files contents are outlined below>>>>>
 *****************************************
 **/
 
-/* 
-RESPONSIVE STYLES
-*/
 
 
 /* imported styles */
 
-@import url('http://www.peccu.org/css/jquery.fancybox.css');
+/* @import url('http://www.peccu.org/css/jquery.fancybox.css');
 @import url('http://www.peccu.org/css/hover.css');
 @import url('http://www.peccu.org/css/jquery.bxslider.css');
 @import url('http://www.peccu.org/css/gradient.css');
@@ -74,7 +71,7 @@ RESPONSIVE STYLES
 
 @import url('http://www.peccu.org/css/revolution-slider/settings.css');
 @import url('http://www.peccu.org/css/revolution-slider/layers.css');
-@import url('http://www.peccu.org/css/revolution-slider/navigation.css');
+@import url('http://www.peccu.org/css/revolution-slider/navigation.css'); */
 
 
 
@@ -6488,9 +6485,5 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
-
-/* 
-RESPONSIVE STYLES
-*/
 
 
