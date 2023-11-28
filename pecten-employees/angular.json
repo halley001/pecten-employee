@@ -27,7 +27,22 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.css",
+              "/src/bootstrap.css",
+              "/src/custom.css",
+              "/src/font.awesome.min.css",
+              "/src/gradient.css",
+              "/src/hover.css",
+              "src/jquery.bxslider.css",
+              "/src/jquery.fancybox.css",
+              "/src/jquery.mCustomScrollbar.min.css",
+              "/src/layers.css",
+              "/src/modulestylesheet.css",
+              "/src/navigation.css",
+              "src/owl.carousel.css",
+              "/src/owl.theme.css",
+              "src/responsive.css",
+              "/srcsettings.css"
             ],
             "scripts": []
           },
