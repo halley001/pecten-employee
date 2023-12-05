@@ -727,7 +727,7 @@ header .bottom_header .address .top-info .icon-box span:after {
 
 /*=============Small business========*/
 .small_business_sec {
-	background: url(/assets/images/small-business-owner.png) no-repeat center;
+	background: url(assets/images/small-business-owner.png) no-repeat center;
 	background-color: #23252a;
 	height: 355px;
 	position: relative;
