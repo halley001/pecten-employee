@@ -13,6 +13,8 @@ import { WomenComponent } from './components/women/women.component';
 import { CsrComponent } from './components/csr/csr.component';
 import { RegulationsComponent } from './components/regulations/regulations.component';
 import { PressComponent } from './components/press/press.component';
+import { SchoolloansComponent } from './components/schoolloans/schoolloans.component';
+import { Peccu30yearsComponent } from './components/peccu30years/peccu30years.component';
 
 
 const routes: Routes = [
@@ -28,6 +30,8 @@ const routes: Routes = [
   {path:'blog/Press', component:PressComponent},
   {path:'downloads', component:DownloadsComponent},
   {path:'contact', component:ContactComponent},
+  {path:'schoolloans', component:SchoolloansComponent},
+  {path:'peccu30years', component:Peccu30yearsComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'},
   {path:'**', component:PagenotfoundComponent}
 ];

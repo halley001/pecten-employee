@@ -24,6 +24,8 @@ import { PressComponent } from './components/press/press.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { SchoolloansComponent } from './components/schoolloans/schoolloans.component';
+import { Peccu30yearsComponent } from './components/peccu30years/peccu30years.component';
 
 
 @NgModule({
@@ -46,7 +48,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     CsrComponent,
     RegulationsComponent,
     ProjectsComponent,
-    PressComponent
+    PressComponent,
+    SchoolloansComponent,
+    Peccu30yearsComponent
   ],
   imports: [
     BrowserModule,
